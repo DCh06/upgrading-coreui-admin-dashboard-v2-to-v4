@@ -17,3 +17,13 @@ $https://github.com/coreui/coreui-free-angular-admin-template
 
 4. Copy _layout.scss
 - there is a markdown for .wrapper class
+
+
+5. change css to match bootstrap v5
+```
+regex in vscode replce all fe.: /(class=".*)(?<![\w\d-])(card)(?![-\w\d])(.*")/ replace /$1 card mb-4 $3/
+
+form-group -> mb-3  )
+card -> card mb-4
+text-right -> text-end
+```
