@@ -9,11 +9,15 @@ This was is pain
 
 2. These modules
 ``` AppAsideModule, AppFooterModule, AppHeaderModule, AppSidebarModule...``` no longer exist, use ``` FooterModule, HeaderModule, SidebarModule... ``` instead
+ import icons (iconSetService or smthing like that), iconSubSet, add defaultHeaderComponent and defaultFooterComponent to APP_CONTAINERS
 
 3. copy default layout from coreui template  
 ```
 $https://github.com/coreui/coreui-free-angular-admin-template
 ```
+
+3.1.
+``` ```
 
 4. Copy _layout.scss
 - there is a markdown for .wrapper class
