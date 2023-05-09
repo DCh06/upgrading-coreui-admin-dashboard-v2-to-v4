@@ -8,8 +8,7 @@
 
 
 
-2.
-copy default-layout from coreui template and try to inster your old logic in there
+2. copy default-layout from coreui template and try to inster your old logic in there
 ```
 https://github.com/coreui/coreui-free-angular-admin-template
 ```
@@ -19,8 +18,10 @@ https://github.com/coreui/coreui-free-angular-admin-template
  import icons (iconSetService or smthing like that), iconSubSet, add defaultHeaderComponent and defaultFooterComponent to APP_CONTAINERS
 
 
-4. Copy _layout.scss
-- there is a markdown for .wrapper class
+4. Copy _layout.scss from template
+``` 
+there is a markdown for .wrapper class
+```
 
 5. change your primary color in _variables.scss
 ```
@@ -40,6 +41,7 @@ form-group -> mb-3  )
 card -> card mb-4
 text-right/left -> text-end/start
 pollish (offset-1) the new version is wider offset-1 -> offset-md-1
-
+brand-card no longer exist f.e.
+and many more...
 
 ```
